@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparación gastronómica</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background-color: #fff; margin: 0; }
+        header { background-color: #1d3557; color: white; padding: 20px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        nav a:hover { text-decoration: underline; }
+        section { padding: 30px; max-width: 900px; margin: auto; }
+        h2 { color: #e63946; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ccc; padding: 10px; text-align: center; }
+        th { background-color: #f1faee; }
+        video { width: 100%; margin-top: 20px; border-radius: 10px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Comparación gastronómica: Inglaterra vs España</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="comidas.html">Comparación</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Platos típicos</h2>
+        <table>
+            <tr>
+                <th>Inglaterra</th>
+                <th>España</th>
+            </tr>
+            <tr>
+                <td>Fish and Chips</td>
+                <td>Paella</td>
+            </tr>
+            <tr>
+                <td>English Breakfast</td>
+                <td>Tortilla de patatas</td>
+            </tr>
+            <tr>
+                <td>Sunday Roast</td>
+                <td>Gazpacho</td>
+            </tr>
+        </table>
+
+        <h2>Video sobre comida inglesa y española</h2>
+        <video controls>
+            <source src="https://cdn.pixabay.com/video/2018/06/05/15845-269052908_large.mp4" type="video/mp4">
+            Tu navegador no soporta el video.
+        </video>
+
+        <p>La comida inglesa es más sobria y contundente, mientras que la española es variada, colorida y mediterránea.</p>
+    </section>
+
+    <footer>
+        <p>© 2025 - Comparación Gastronómica</p>
+    </footer>
+</body>
+</html>
