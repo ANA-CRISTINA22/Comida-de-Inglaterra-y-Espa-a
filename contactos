@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+        }
+        header {
+            background-color: #457b9d;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 30px;
+            text-align: center;
+        }
+        iframe {
+            border: none;
+            width: 80%;
+            height: 500px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contacto</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="comidas.html">Comparación</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>¿Tienes alguna opinión o sugerencia?</h2>
+        <p>Rellena el siguiente formulario para compartir tus ideas sobre la gastronomía inglesa y española.</p>
+
+        <!-- Sustituye el SRC de este iframe por el de tu propio formulario -->
+        <iframe 
+            src="https://docs.google.com/forms/d/e/1FAIpQLSde1PruebaFicticia1234567890/viewform?embedded=true">
+            Cargando formulario…
+        </iframe>
+    </section>
+
+    <footer style="background-color:#1d3557; color:white; text-align:center; padding:10px;">
+        <p>© 2025 - Comparación Gastronómica Inglaterra vs España</p>
+    </footer>
+</body>
+</html>
